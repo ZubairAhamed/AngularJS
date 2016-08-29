@@ -1,0 +1,23 @@
+<div class="container-fluid">
+	<br><br><br><br><br><br>
+	{{printHello}}
+	<br><br><br>
+	Search <input type="text"
+		   ng-model="user.customerFilter">
+	<br><br><br>
+	<table class="table table-striped">
+		<tr>
+			<th>Name</th>
+			<th>Country</th>
+		</tr>
+		<!-- Filter the data based on the value in user.customerFilter textbox -->
+		<tr ng-repeat="customer in customers | filter: user.customerFilter">
+			<td>
+				{{ customer.Name }}
+			</td>
+			<td>
+				{{ customer.Country }}
+			</td>
+		</tr>
+	</table>
+</div>
