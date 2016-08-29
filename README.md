@@ -1,6 +1,7 @@
 # AngularJS
 
 1) Download and Install Git for Windows from https://git-for-windows.github.io/
+
 2) Download and Install XAMPP for Windows from https://www.apachefriends.org/download.html
 	* Do not download version 7
 
@@ -16,3 +17,5 @@
 3) Download and Install Sublime Text for Windows from https://www.sublimetext.com/download
 
 4) Now if everything is success then, you can start practicing with those sample angular programs.
+
+5) Please let me know if you have any doubts in the above steps and whether you need some more example programs.
